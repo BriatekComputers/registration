@@ -1,0 +1,136 @@
+﻿.custom-slider
+{
+    max-width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+
+.custom-slider ul
+{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.custom-slider ul li
+{
+    padding: 0;
+    margin: 0;
+    display: inline;
+    list-style-type: none;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+
+.custom-slider-slides
+{
+    position: relative;
+}
+.custom-slider-single
+{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.custom-slider-single img {
+	max-width: 100%;
+	display: inline-block;
+}
+
+.custom-slider-single.active
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+
+
+
+
+
+.custom-slider-controls .custom-slider-prev-next
+{
+    position: absolute;
+    width: 100%;
+    margin-top: -30%;
+}
+
+.custom-slider-prev-next li a
+{
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    font-size: 0px;
+    text-indent: 9999px;
+    
+}
+
+.custom-slider-prev-next li a:after
+{
+    font-family: 'FontAwesome';
+    font-size: 48px;
+    color: #fff;
+    position: absolute;
+    text-indent: 1px;
+    opacity: 0.70;
+    -moz-transition: opacity .4s ease;
+    -webkit-transition: opacity .4s ease;
+    transition: opacity .4s ease;
+}
+
+
+.custom-slider-prev a:after
+{
+    content: '\f104'; 
+    left: 17px;
+}
+.custom-slider-next a:after
+{
+    content: '\f105';
+    right: 17px;
+}
+
+.custom-slider-prev-next li:hover a:after
+{
+    opacity: 1;
+    
+}
+
+
+.custom-slider-controls .custom-slider-paging {
+ text-align: center;
+ position: relative;
+ top:-30px;
+ left: -5px;
+}
+
+.custom-slider-paging li a {
+	 margin: 0px 2px;
+}
+
+.custom-slider-paging li a {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background-color: #bababa;
+    font-size: 0px;
+    text-indent: 99999px;
+    border-radius: 7px;
+    -moz-transition: background-color .4s ease;
+	-webkit-transition: background-color .4s ease;
+    transition: background-color .4s ease;
+}
+
+.custom-slider-paging li.active a,
+.custom-slider-paging li a:hover {
+	 background-color: #202020;
+}
