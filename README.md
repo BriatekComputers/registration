@@ -6,7 +6,7 @@ Apache Web Server Install
 Text Editor (IDE)
 MYSQL Database
 
-####### Online Reguirements
+####### Online Reguirement
 
 1. Create Github account
 2. Receive invitation from project manager
